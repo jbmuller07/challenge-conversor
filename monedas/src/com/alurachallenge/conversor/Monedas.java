@@ -1,0 +1,7 @@
+package com.alurachallenge.conversor;
+
+public record Monedas(String base_code,
+                      String target_code,
+                      double conversion_rate
+) {
+}
